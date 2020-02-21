@@ -15,6 +15,10 @@ DOE SANGUE
   </a>
 </p>
 
+<div>
+  <img src=".github/home.gif" alt="demonstração" height="425" />
+</div>
+
 ## Features
 Esta aplicatição apresenta todas as mais recentes ferramentas e práticas em desenvolvimento!
 
@@ -29,21 +33,26 @@ Esta aplicatição apresenta todas as mais recentes ferramentas e práticas em d
 
 Para clonar esta aplicação é necessário o [Git](https://git-scm.com/downloads).
 
-Clone o projeto
+```sh
+# Clone o projeto
+$ git clone https://github.com/wendhio/doe-sangue.git
 
-`$ git clone https://github.com/wendhio/doe-sangue.git
+# Entre no repositório
+$ cd doe-sangue
 
 # Instale as dependências
 $ npm install
 
 # Inicie o servidor
 $ npm start
-`
+```
+
 Para salvar os dados é necessário criar o banco de dados com o [PostgreSQL](https://www.postgresql.org/)
 
 ![database](.github/database.png)
 
 Configurar a conexão com o banco de dados
+
 ```
 # Crie um arquivo .env e edite as configurações do banco de dados
 DB_USER=
